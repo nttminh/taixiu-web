@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+<h1 align='center'>Tai Xiu Web⚡</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based game for tai xiu, player will have to guess the sum of the result, will it be odd, or even? Try to see how many time you can guess it correctly
 
-## Available Scripts
+#### **Vercel Deploy: Will be updated**
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/59038507/170851845-8710b59a-e88c-4fc5-9861-635fe1075390.png)
 
-### `npm start`
+## **Techonologies 📋**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ReactJS, Material UI, Redux, etc...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Etc...
 
-### `npm test`
+## **How to start project 📋**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+yarn dev
+```
 
-### `npm run build`
+or
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm run dev
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Options ✍️**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Check lint
 
-### `npm run eject`
+```
+yarn lint
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Fix lint
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+yarn lint:fix
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Check prettier
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+yarn prettier
+```
 
-## Learn More
+4. Fix prettier
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+yarn prettier:fix
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Fix lint and prettier
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+yarn format
+```
