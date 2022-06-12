@@ -73,7 +73,6 @@ class Result extends React.Component {
       }
     };
 
-
     return (
       <>
         {result.length === 0 && <p style={{ textAlign: 'center' }}>Choose your option</p>}
@@ -88,10 +87,4 @@ const mapStateToProps = (state) => ({
   result: state.dice.dice,
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  rollDice: () => {
-    const action = { type: 'ROLL_DICE' };
-    dispatch(action);
-  },
-});
-export default connect(mapStateToProps, mapDispatchToProps)(Result);
+export default connect(mapStateToProps, null)(Result);
