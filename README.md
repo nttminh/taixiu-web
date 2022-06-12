@@ -1,6 +1,6 @@
 <h1 align='center'>Tai Xiu Web⚡</h1>
 
-A web-based game for tai xiu, player will have to guess the sum of the result, will it be odd, or even? Try to see how many time you can guess it correctly
+A web-based game for Chinese Dice, player will have to guess the sum of the result, will it be odd, or even? Try to see how many time you can guess it correctly
 
 #### **Vercel Deploy: Will be updated**
 
@@ -15,43 +15,6 @@ Etc...
 ## **How to start project 📋**
 
 ```
-yarn dev
+npm start
 ```
 
-or
-
-```
-npm run dev
-```
-
-## **Options ✍️**
-
-1. Check lint
-
-```
-yarn lint
-```
-
-2. Fix lint
-
-```
-yarn lint:fix
-```
-
-3. Check prettier
-
-```
-yarn prettier
-```
-
-4. Fix prettier
-
-```
-yarn prettier:fix
-```
-
-5. Fix lint and prettier
-
-```
-yarn format
-```
